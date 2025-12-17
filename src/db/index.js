@@ -6,7 +6,7 @@ let db;
 
 const connectDb = async () => {
   try {
-    if (!client) {
+    if (client) {
       client = new MongoClient(config.mongodb_uri);
 
       await client.connect();

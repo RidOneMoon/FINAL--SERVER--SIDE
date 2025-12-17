@@ -11,7 +11,7 @@ const startServer = async () => {
       console.log(`Server is running on: ${port}`);
     });
   } catch (error) {
-    console.error("Database error: ", error); 
+    console.error("Database error: ", error);
   }
 };
 

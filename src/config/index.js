@@ -10,7 +10,7 @@ dotenv.config({
 const config = {
     port: process.env.PORT,
     mongodb_uri:process.env.MONGODB_URI,
-    jwt_secret: process.env.JW_SECRET,
+    jwt_secret: process.env.JWT_SECRET,
     db_name: "infrastructure-issues-system",
     env: process.env.NODE_ENV,
 }

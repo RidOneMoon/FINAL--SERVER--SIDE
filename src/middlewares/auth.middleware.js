@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import config from "../config/index.js";
 
-const authentication = async (req, res) => {
+const authentication = async (req, res, next) => {
   try {
 
     let token;

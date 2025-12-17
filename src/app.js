@@ -20,7 +20,7 @@ app.use(cors({
 app.use(express.json());
 
 
-app.use(/.*/, cor({
+app.use(/.*/, cors({
     origin: allowedOrigin,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
